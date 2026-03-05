@@ -1,6 +1,6 @@
 {
 	"name": "react-scroll-velocity",
-	"version": "0.1.0",
+	"version": "0.8.0",
 	"description": "React hook & components for scroll-speed-based animations. Velocity text skew, speed-reactive marquee, parallax. Zero dependencies.",
 	"type": "module",
 	"license": "MIT",
