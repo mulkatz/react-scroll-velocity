@@ -1,6 +1,6 @@
 {
 	"name": "react-scroll-velocity",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "React hook & components for scroll-speed-based animations. Velocity text skew, speed-reactive marquee, parallax. Zero dependencies.",
 	"type": "module",
 	"license": "MIT",
@@ -14,16 +14,18 @@
 		"url": "https://github.com/mulkatz/react-scroll-velocity/issues"
 	},
 	"keywords": [
+		"react-scroll-velocity",
+		"scroll-velocity",
+		"scroll-speed",
+		"scroll-animation",
 		"scroll",
 		"velocity",
-		"speed",
 		"animation",
 		"skew",
 		"marquee",
-		"parallax",
 		"react",
-		"hook",
-		"interaction"
+		"react-hook",
+		"react-component"
 	],
 	"exports": {
 		".": {
