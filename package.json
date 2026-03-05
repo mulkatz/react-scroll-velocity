@@ -1,5 +1,5 @@
 {
-	"name": "scroll-velocity",
+	"name": "react-scroll-velocity",
 	"version": "0.0.1",
 	"description": "React hook & components for scroll-speed-based animations. Velocity text skew, speed-reactive marquee, parallax. Zero dependencies.",
 	"type": "module",
@@ -7,11 +7,11 @@
 	"author": "Franz Benthin",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mulkatz/scroll-velocity"
+		"url": "https://github.com/mulkatz/react-scroll-velocity"
 	},
-	"homepage": "https://github.com/mulkatz/scroll-velocity#readme",
+	"homepage": "https://github.com/mulkatz/react-scroll-velocity#readme",
 	"bugs": {
-		"url": "https://github.com/mulkatz/scroll-velocity/issues"
+		"url": "https://github.com/mulkatz/react-scroll-velocity/issues"
 	},
 	"keywords": [
 		"scroll",

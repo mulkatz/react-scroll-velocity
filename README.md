@@ -1,4 +1,4 @@
-# scroll-velocity
+# react-scroll-velocity
 
 React hook & components for scroll-speed-based animations. Text skew, velocity marquee, scroll-reactive opacity. Zero dependencies.
 
@@ -16,7 +16,7 @@ React hook & components for scroll-speed-based animations. Text skew, velocity m
 ## Install
 
 ```bash
-npm install scroll-velocity
+npm install react-scroll-velocity
 ```
 
 ## Quick Start
@@ -24,7 +24,7 @@ npm install scroll-velocity
 ### Hook
 
 ```tsx
-import { useScrollVelocity } from 'scroll-velocity';
+import { useScrollVelocity } from 'react-scroll-velocity';
 
 function ScrollDebug() {
   const { velocity, direction, isScrolling } = useScrollVelocity();
@@ -42,7 +42,7 @@ function ScrollDebug() {
 ### Components
 
 ```tsx
-import { VelocityText, VelocityMarquee, VelocityOpacity } from 'scroll-velocity';
+import { VelocityText, VelocityMarquee, VelocityOpacity } from 'react-scroll-velocity';
 
 function App() {
   return (
