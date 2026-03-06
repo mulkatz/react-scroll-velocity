@@ -19,6 +19,8 @@ export function VelocityMarquee({
 	const positionRef = useRef(0);
 	const rafRef = useRef<number>(0);
 	const lastTimeRef = useRef(0);
+	const speedRef = useRef(speed);
+	speedRef.current = speed;
 
 	useEffect(() => {
 		if (typeof window === "undefined") return;
@@ -36,7 +38,7 @@ export function VelocityMarquee({
 			const dt = (time - lastTimeRef.current) / 1000;
 			lastTimeRef.current = time;
 
-			const scrollMultiplier = 1 + (speed / 500) * (maxSpeedMultiplier - 1);
+			const scrollMultiplier = 1 + (speedRef.current / 500) * (maxSpeedMultiplier - 1);
 			const currentSpeed = baseSpeed * Math.min(scrollMultiplier, maxSpeedMultiplier);
 			const direction = reverse ? 1 : -1;
 
@@ -65,7 +67,7 @@ export function VelocityMarquee({
 			cancelAnimationFrame(rafRef.current);
 			lastTimeRef.current = 0;
 		};
-	}, [baseSpeed, maxSpeedMultiplier, reverse, speed]);
+	}, [baseSpeed, maxSpeedMultiplier, reverse]);
 
 	return (
 		<div
