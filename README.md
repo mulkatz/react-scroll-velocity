@@ -1,6 +1,22 @@
-# react-scroll-velocity
+<p align="center"><img src="./icon.png" width="120" /></p>
 
-React hook & components for scroll-speed-based animations. Text skew, velocity marquee, scroll-reactive opacity. Zero dependencies.
+<h1 align="center">react-scroll-velocity</h1>
+
+<p align="center">
+React hook &amp; components for scroll-speed-based animations. Zero dependencies.
+</p>
+
+<p align="center">
+<a href="https://www.npmjs.com/package/react-scroll-velocity"><img src="https://img.shields.io/npm/v/react-scroll-velocity" alt="npm version" /></a>
+<a href="https://bundlephobia.com/package/react-scroll-velocity"><img src="https://img.shields.io/bundlephobia/minzip/react-scroll-velocity" alt="bundle size" /></a>
+<a href="https://github.com/mulkatz/react-scroll-velocity/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/react-scroll-velocity" alt="license" /></a>
+</p>
+
+<p align="center"><img src="./assets/demo.gif" width="800" /></p>
+
+<p align="center">
+<a href="https://react-scroll-velocity.mulkatz.dev"><strong>→ Live Demo</strong></a>
+</p>
 
 ## Features
 
