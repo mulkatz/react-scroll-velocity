@@ -19,12 +19,12 @@ export function HookDemo() {
 			</div>
 
 			<div className="mt-8 max-w-md mx-auto">
-				<div className="h-2 rounded-full bg-zinc-800 overflow-hidden">
+				<div className="h-2 rounded-full bg-zinc-800 overflow-hidden relative">
 					<div
-						className="h-full bg-zinc-400 rounded-full transition-all duration-100"
+						className="absolute top-0 h-full bg-zinc-400 rounded-full transition-all duration-100"
 						style={{
-							width: `${Math.abs(velocity) * 100}%`,
-							marginLeft: velocity < 0 ? `${(1 - Math.abs(velocity)) * 50}%` : "50%",
+							width: `${Math.abs(velocity) * 50}%`,
+							left: velocity >= 0 ? "50%" : `${50 - Math.abs(velocity) * 50}%`,
 						}}
 					/>
 				</div>
