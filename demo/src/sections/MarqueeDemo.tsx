@@ -1,15 +1,6 @@
 import { VelocityMarquee } from "react-scroll-velocity";
 
-const WORDS = [
-	"VELOCITY",
-	"SCROLL",
-	"MOTION",
-	"SPEED",
-	"REACT",
-	"ANIMATION",
-	"SMOOTH",
-	"FAST",
-];
+const WORDS = ["VELOCITY", "SCROLL", "MOTION", "SPEED", "REACT", "ANIMATION", "SMOOTH", "FAST"];
 
 export function MarqueeDemo() {
 	return (

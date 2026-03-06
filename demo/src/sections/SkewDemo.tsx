@@ -3,7 +3,9 @@ import { VelocityText } from "react-scroll-velocity";
 export function SkewDemo() {
 	return (
 		<section className="py-24">
-			<h2 className="text-sm tracking-widest uppercase text-zinc-500 mb-12 text-center">VelocityText</h2>
+			<h2 className="text-sm tracking-widest uppercase text-zinc-500 mb-12 text-center">
+				VelocityText
+			</h2>
 
 			<div className="space-y-6 max-w-3xl mx-auto">
 				<VelocityText maxSkew={8}>

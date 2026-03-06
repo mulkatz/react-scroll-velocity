@@ -3,7 +3,9 @@ import { VelocityText } from "react-scroll-velocity";
 export function Hero() {
 	return (
 		<section className="py-32 text-center">
-			<p className="text-sm tracking-widest uppercase text-zinc-500 mb-8">Scroll to see it in action</p>
+			<p className="text-sm tracking-widest uppercase text-zinc-500 mb-8">
+				Scroll to see it in action
+			</p>
 			<VelocityText maxSkew={12} squeeze maxSqueeze={0.08}>
 				<h1 className="text-6xl sm:text-7xl font-bold tracking-tight text-zinc-50">
 					react-scroll-velocity
