@@ -1,4 +1,4 @@
-<p align="center"><img src="./icon.png" width="120" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/mulkatz/react-scroll-velocity/main/icon.png" width="120" alt="react-scroll-velocity icon" /></p>
 
 <h1 align="center">react-scroll-velocity</h1>
 
@@ -8,7 +8,7 @@ React hook &amp; components for scroll-speed-based animations. Zero dependencies
 
 <p align="center">
 <a href="https://www.npmjs.com/package/react-scroll-velocity"><img src="https://img.shields.io/npm/v/react-scroll-velocity" alt="npm version" /></a>
-<a href="https://github.com/mulkatz/react-scroll-velocity/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/react-scroll-velocity" alt="license" /></a>
+<a href="https://github.com/mulkatz/react-scroll-velocity/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license" /></a>
 </p>
 
 <p align="center"><img src="./assets/demo.gif" width="800" /></p>
