@@ -8,7 +8,6 @@ React hook &amp; components for scroll-speed-based animations. Zero dependencies
 
 <p align="center">
 <a href="https://www.npmjs.com/package/react-scroll-velocity"><img src="https://img.shields.io/npm/v/react-scroll-velocity" alt="npm version" /></a>
-<a href="https://bundlephobia.com/package/react-scroll-velocity"><img src="https://img.shields.io/bundlephobia/minzip/react-scroll-velocity" alt="bundle size" /></a>
 <a href="https://github.com/mulkatz/react-scroll-velocity/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/react-scroll-velocity" alt="license" /></a>
 </p>
 
